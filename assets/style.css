@@ -7,7 +7,6 @@
 
 * {
     box-sizing: border-box;
-    /* background: var(--lightTheme); */
     margin: 0;
     padding: 0;
     border: 0;
@@ -28,3 +27,30 @@ h1 {
     /* background: var(--darkTheme); */
     color: var(--lightTheme);
 }
+
+nav {
+    position:relative;
+    background: var(--lightTheme);
+    color: var(--darkTheme);
+}
+
+#navBar {
+    list-style-type:none;
+    text-align: right;
+    font-weight: bolder;
+    font-size: 110%;
+    color: var(--darkTheme);
+    vertical-align: top;
+}
+
+.navItem {
+    display: inline;
+    position: relative;
+    top: -4px;
+    right: 30px;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+  }
