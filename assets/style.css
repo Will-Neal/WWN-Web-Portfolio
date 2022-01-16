@@ -1,0 +1,30 @@
+
+
+:root {
+    --lightTheme: rgb(255, 232, 217);
+    --darkTheme: rgb(56, 175, 196);
+}
+
+* {
+    box-sizing: border-box;
+    /* background: var(--lightTheme); */
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+header {
+    position:relative;
+    border:20px;
+    padding:50px;
+    background:var(--lightTheme);
+    background-color: var(--darkTheme);
+}
+
+h1 {
+    position:absolute;
+    left: 8px;
+    bottom: -1px;
+    font-size: 250%;
+    /* background: var(--darkTheme); */
+    color: var(--lightTheme);
+}
