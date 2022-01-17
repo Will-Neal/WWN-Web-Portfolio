@@ -56,6 +56,8 @@ a {
   }
 
 #aboutContainer {
+    display: flex;
+    align-items: center;
     background: var(--lightTheme);
     position: relative;
     height: 150px;  
@@ -66,16 +68,21 @@ figure {
 }
 
 #profilePic {
+    vertical-align: middle;
     position:relative;
     left: 15px;
-    top: 15px;
+    /* top: 15px; */
     float:left;
-    height: 10%;
-    width: 10%;    
+    height: 100px;
+    width: 100px;  
+    z-index: 1;  
 }
 
 article {
+    z-index: 0;
     position: relative;
     left: 25px;
-    top: 15px;
+    /* top: 15px; */
+    vertical-align: middle;
+    background-color: var(--lightTheme);
 }
