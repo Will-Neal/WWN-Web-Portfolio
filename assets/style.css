@@ -11,6 +11,8 @@
     padding: 0;
     border: 0;
 }
+
+/* My name and the box containing it */
 header {
     position:relative;
     border:20px;
@@ -28,6 +30,7 @@ h1 {
     color: var(--lightTheme);
 }
 
+/* Navigation Bar styling */
 nav {
     position:relative;
     background: var(--lightTheme);
@@ -55,6 +58,7 @@ a {
     text-decoration: inherit;
   }
 
+/* About section with personal profile photo and a paragraph of information */
 #aboutContainer {
     display: flex;
     align-items: center;
