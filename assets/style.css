@@ -55,6 +55,27 @@ a {
     text-decoration: inherit;
   }
 
+#aboutContainer {
+    background: var(--lightTheme);
+    position: relative;
+    height: 150px;  
+}
+
 figure {
-    
+    /* height: 15; */
+}
+
+#profilePic {
+    position:relative;
+    left: 15px;
+    top: 15px;
+    float:left;
+    height: 10%;
+    width: 10%;    
+}
+
+article {
+    position: relative;
+    left: 25px;
+    top: 15px;
 }
