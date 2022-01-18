@@ -90,3 +90,35 @@ article {
     vertical-align: middle;
     background-color: var(--lightTheme);
 }
+
+#projectsContainer {
+    background-color: var(--lightTheme);
+    display: flex;
+}
+
+#projectsHeader {
+    position: relative;
+    left: 125px;
+}
+
+.projectsBox {
+    background: var(--lightTheme);
+    height: 200px;
+    width:200px;
+}
+
+h3 {
+    position: relative;
+    top:30px;
+    text-align: left;
+}
+
+.projectsPhoto {
+    /* vertical-align: middle; */
+    position: relative;
+    top: 30px;
+    
+    height: 150px;
+    width: 150px;  
+    z-index: 1; 
+}
