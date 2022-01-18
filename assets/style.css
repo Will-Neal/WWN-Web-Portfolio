@@ -47,6 +47,7 @@ nav {
 }
 
 .navItem {
+    background-color: transparent;
     display: inline;
     position: relative;
     top: -4px;
@@ -54,7 +55,7 @@ nav {
 }
 
 a {
-    background: transparent;
+    background-color:transparent;
     color: inherit;
     text-decoration: inherit;
   }
