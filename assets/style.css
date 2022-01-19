@@ -69,11 +69,6 @@ a {
     align-items: center;
     background: var(--lightTheme);
     position: relative;
-    height: 150px;  
-}
-
-figure {
-    /* height: 15; */
 }
 
 #profilePic {
@@ -93,12 +88,20 @@ article {
     left: 25px;
     vertical-align: middle;
     background-color: var(--lightTheme);
+    margin-right: 250px;
+    color: var(--darkTheme);
 }
 
 #projectsHeader {
     background-color: var(--lightTheme);
     position: relative;
     left: 125px;
+    margin-top: 30px;
+    color: var(--darkTheme);
+}
+
+.backgroundBox {
+    background: var(--darkTheme);
 }
 
 /* container and boxes for project display */
@@ -106,11 +109,15 @@ article {
     display: flex;
     flex-wrap: wrap;
     margin-left: 125px;
+    margin-right:125px;
     margin-top: 30px;
+    justify-content: space-between;
+    background: var(--darkTheme);
 }
 
 .projectsBox {
-    flex-basis: 25%;
+    flex-basis: 33%;
+    background: var(--darkTheme);
 }
 
 .projectsPhoto {
@@ -121,8 +128,8 @@ article {
 
 
 
-/* h3 {
-    position: relative;
-    top:30px;
-    text-align: left;
-} */
+h3 {
+    text-align: center;
+    background: var(--darkTheme);
+    color: var(--lightTheme);
+}
