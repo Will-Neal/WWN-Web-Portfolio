@@ -15,6 +15,7 @@
 
 /* My name and the box containing it */
 header {
+    display: flex;
     position:relative;
     border:20px;
     padding:50px;
@@ -33,7 +34,9 @@ h1 {
 
 /* Navigation Bar styling */
 nav {
+    /* display: flex; */
     position:relative;
+    align-items: flex-end;
     color: var(--darkTheme);
 }
 
@@ -88,20 +91,12 @@ article {
     z-index: 0;
     position: relative;
     left: 25px;
-    /* top: 15px; */
     vertical-align: middle;
     background-color: var(--lightTheme);
 }
 
-#projectsContainer {
-    background-color: var(--lightTheme);
+.projectsContainer {
     display: flex;
-}
-
-#projectsHeader {
-    background-color: var(--lightTheme);
-    position: relative;
-    left: 125px;
 }
 
 .projectsBox {
@@ -110,6 +105,14 @@ article {
     height: 200px;
     width:200px;
 }
+
+#projectsHeader {
+    background-color: var(--lightTheme);
+    position: relative;
+    left: 125px;
+}
+
+
 
 h3 {
     position: relative;
