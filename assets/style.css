@@ -66,6 +66,8 @@ a {
 
 /* About section with personal profile photo and a paragraph of information */
 #aboutHeader {
+    margin-top: 50px;
+    margin-bottom: 15px;
     text-align: center;
 }
 
@@ -94,7 +96,8 @@ article {
 #projectsHeader {
     background-color: var(--lightTheme);
     text-align: center;
-    margin-top: 30px;
+    margin-top: 50px;
+    margin-bottom: 15px;
     margin-right: 60px;
     color: var(--darkTheme);
 }
@@ -109,14 +112,15 @@ article {
     display: flex;
     flex-wrap: wrap;
     margin-left: 10%;
-    margin-top: 30px;
-    border-bottom: 30px solid var(--darkTheme);
+    margin-top: 50px;
+    border-bottom: 40px solid var(--darkTheme);
     justify-content:stretch;
     background: var(--darkTheme);
     align-items: flex-end;
 }
 
 .projectsBox {
+    margin-top: 25px;
     flex-basis: 30%;
     background: var(--darkTheme);
 }
