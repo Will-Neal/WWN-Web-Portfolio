@@ -105,14 +105,16 @@ article {
 .projectsContainer {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 125px;
+    margin-top: 30px;
 }
 
 .projectsBox {
-    flex-basis: 33%;
+    flex-basis: 25%;
 }
 
 .projectsPhoto {
-    height: 100%;
+    height: 75%;
     width: 100%;
 }
 
@@ -123,13 +125,4 @@ article {
     position: relative;
     top:30px;
     text-align: left;
-    background: transparent;
-} */
-
-/* .projectsPhoto {
-    top: 30px;
-    border:var(--lightTheme) 10px;
-    height: 250px;
-    width: 250px;  
-    z-index: 1; 
 } */
