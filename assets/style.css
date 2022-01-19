@@ -11,6 +11,7 @@
     padding: 0;
     border: 0;
     background-color: var(--lightTheme);
+    font-family:'Courier New', Courier, monospace
 }
 
 /* My name and the box containing it */
@@ -26,7 +27,7 @@ header {
 h1 {
     position:absolute;
     left: 8px;
-    bottom: -1px;
+    bottom: -5px;
     font-size: 250%;
     background: var(--darkTheme);
     color: var(--lightTheme);
@@ -86,7 +87,7 @@ a {
 }
 
 article {
-    margin-right: 250px;
+    margin-right: 200px;
     color: var(--darkTheme);
 }
 
@@ -94,7 +95,7 @@ article {
     background-color: var(--lightTheme);
     text-align: center;
     margin-top: 30px;
-    margin-right: 40px;
+    margin-right: 60px;
     color: var(--darkTheme);
 }
 
@@ -107,8 +108,7 @@ article {
 .projectsContainer {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 125px;
-    margin-right:125px;
+    margin-left: 10%;
     margin-top: 30px;
     border-bottom: 30px solid var(--darkTheme);
     justify-content:stretch;
@@ -133,4 +133,5 @@ h3 {
     text-align: center;
     background: var(--darkTheme);
     color: var(--lightTheme);
+    margin-right: 75px;
 }
