@@ -64,44 +64,43 @@ a {
   }
 
 /* About section with personal profile photo and a paragraph of information */
+#aboutHeader {
+    text-align: center;
+}
+
 #aboutContainer {
     display: flex;
     align-items: center;
     background: var(--lightTheme);
     position: relative;
+    text-align: center;
 }
 
 #profilePic {
-    vertical-align: middle;
-    position:relative;
-    left: 15px;
-    /* top: 15px; */
-    float:left;
+    margin-left: 15px;
+    margin-right: 15px;
     height: 100px;
     width: 100px;  
-    z-index: 1;  
+    border-radius: 50%;
+    box-shadow: 5px 5px var(--darkTheme);
 }
 
 article {
-    z-index: 0;
-    position: relative;
-    left: 25px;
-    vertical-align: middle;
-    background-color: var(--lightTheme);
     margin-right: 250px;
     color: var(--darkTheme);
 }
 
 #projectsHeader {
     background-color: var(--lightTheme);
-    position: relative;
-    left: 125px;
+    text-align: center;
     margin-top: 30px;
+    margin-right: 40px;
     color: var(--darkTheme);
 }
 
 .backgroundBox {
     background: var(--darkTheme);
+    margin-bottom: 30px;
 }
 
 /* container and boxes for project display */
@@ -111,18 +110,20 @@ article {
     margin-left: 125px;
     margin-right:125px;
     margin-top: 30px;
-    justify-content: space-between;
+    border-bottom: 30px solid var(--darkTheme);
+    justify-content:stretch;
     background: var(--darkTheme);
+    align-items: flex-end;
 }
 
 .projectsBox {
-    flex-basis: 33%;
+    flex-basis: 30%;
     background: var(--darkTheme);
 }
 
 .projectsPhoto {
-    height: 75%;
-    width: 100%;
+    height: 215px;
+    width: 325px;
 }
 
 
