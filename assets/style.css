@@ -95,36 +95,41 @@ article {
     background-color: var(--lightTheme);
 }
 
-.projectsContainer {
-    display: flex;
-}
-
-.projectsBox {
-    display: inline-block;
-    background: var(--lightTheme);
-    height: 200px;
-    width:200px;
-}
-
 #projectsHeader {
     background-color: var(--lightTheme);
     position: relative;
     left: 125px;
 }
 
+/* container and boxes for project display */
+.projectsContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projectsBox {
+    flex-basis: 33%;
+}
+
+.projectsPhoto {
+    height: 100%;
+    width: 100%;
+}
 
 
-h3 {
+
+
+/* h3 {
     position: relative;
     top:30px;
     text-align: left;
     background: transparent;
-}
+} */
 
-.projectsPhoto {
+/* .projectsPhoto {
     top: 30px;
     border:var(--lightTheme) 10px;
     height: 250px;
     width: 250px;  
     z-index: 1; 
-}
+} */
