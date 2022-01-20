@@ -123,7 +123,7 @@ article {
 }
 
 .projectsBox {
-    flex: 1;
+    /* flex: 1; */
     margin-top: 25px;
     flex-basis: 33%;
     background: var(--darkTheme);
@@ -138,16 +138,20 @@ article {
 
 
 
+
 h3 {
     background: var(--darkTheme);
     color: var(--lightTheme);
 }
+
+
 
 #contactContainer {
     margin-top: 50px;
     display:flex;
     text-align: center;
     padding-bottom: 200px;
+
 }
 
 #contactContainer div {
@@ -158,10 +162,30 @@ h3 {
 .contactHeader {
     text-align: center;
     color: var(--darkTheme);
-    /* margin-right: 30px; */
     margin-top: 100px;
 }
 
 .contactInfo {
     color: var(--darkTheme);
+}
+
+@media screen and (max-width: 768px) {
+   h1 {
+    position:absolute;
+    left: 0px;
+    bottom: 0px;
+    font-size: 250%;
+    background: var(--darkTheme);
+    color: var(--lightTheme);   
+    text-align: center;
+   } 
+
+   #contactContainer {
+    margin-top: 50px;
+    display:flex;
+    flex-direction: column;
+    padding-bottom: 200px;
+
+    }
+
 }
