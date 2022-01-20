@@ -197,3 +197,14 @@ h3 {
     }
 
 }
+
+/* #recentProject {
+    height:268.75px;
+    width:406.25px;
+} */
+
+.projectsPhoto:hover {
+    height:268.75px;
+    width:406.25px;
+    box-shadow: grey 5px 5px 5px;
+}
