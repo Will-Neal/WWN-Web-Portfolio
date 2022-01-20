@@ -170,8 +170,8 @@ h3 {
 }
 
 @media screen and (max-width: 768px) {
-   h1 {
-    position:absolute;
+    h1 {
+    position:static;
     left: 0px;
     bottom: 0px;
     font-size: 250%;
@@ -186,6 +186,14 @@ h3 {
     flex-direction: column;
     padding-bottom: 200px;
 
+    }
+
+    #navBar {
+        text-align: center;
+    }
+
+    .navItem {
+        right: 0px;
     }
 
 }
