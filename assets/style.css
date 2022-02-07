@@ -157,6 +157,7 @@ h3 {
 #contactContainer div {
     flex: 1;
     justify-content: center;
+    padding: 30px;
 }
 
 .contactHeader {
