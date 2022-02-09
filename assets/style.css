@@ -213,7 +213,7 @@ h3 {
 .button-wrap {
     background: var(--darkTheme);
     
-    /* text-align: center; */
+    text-align: center;
     /* justify-content: space-between; */
     /* align-items: center; */
     justify-content: center;
@@ -223,6 +223,7 @@ h3 {
 
 button {
     width:100px;
+    margin-right: 85px;
     color: var(--darkTheme);
     font-weight: bold;
     border-radius: 5px;
