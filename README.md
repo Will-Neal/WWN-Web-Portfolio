@@ -10,6 +10,10 @@ The links in the navigation bars take you to the indicated sections. The email i
 
 <br>
 
+## Deployment
+[Click for live deployment](https://will-neal.github.io/Will-Neals-Web-Development-Portfolio/).
+<br>
+
 ![website](https://github.com/Will-Neal/WWN-Web-Portfolio/blob/main/assets/images/webpage-pc-view.jpg?raw=true)
 
 ![website](https://github.com/Will-Neal/WWN-Web-Portfolio/blob/main/assets/images/webpage-mobile-view.jpg?raw=true)
