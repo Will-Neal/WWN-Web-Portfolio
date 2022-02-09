@@ -26,27 +26,27 @@ calendarButton.addEventListener("click", function(){
 
 //Adding event listeners to the images to act on the buttons
 smartShopperImage.addEventListener("mouseenter", function(){
-    smartShopperButton.style.marginRight = "0px";
+    smartShopperButton.style.marginRight = "40px";
 })
 
 weatherImage.addEventListener("mouseenter", function(){
-    weatherButton.style.marginRight = "0px";
+    weatherButton.style.marginRight = "40px";
 })
 
 calendarImage.addEventListener("mouseenter", function() {
-    calendarButton.style.marginRight = "0px";
+    calendarButton.style.marginRight = "40px";
 })
 
 //Adding Event Listeners to restore the button location on mouseexit
 
 smartShopperImage.addEventListener("mouseleave", function(){
-    smartShopperButton.style.marginRight = "85px";
+    smartShopperButton.style.marginRight = "125px";
 })
 
 weatherImage.addEventListener("mouseleave", function(){
-    weatherButton.style.marginRight = "85px";
+    weatherButton.style.marginRight = "125px";
 })
 
 calendarImage.addEventListener("mouseleave", function() {
-    calendarButton.style.marginRight = "85px";
+    calendarButton.style.marginRight = "125px";
 })
