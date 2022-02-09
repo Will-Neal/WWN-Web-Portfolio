@@ -227,3 +227,10 @@ button {
     font-weight: bold;
     border-radius: 5px;
 }
+
+button:hover {
+    cursor: pointer;
+    filter: brightness(125%);
+    width: 125px;
+    height: 18px;
+}
