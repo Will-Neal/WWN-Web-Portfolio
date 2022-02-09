@@ -212,10 +212,10 @@ h3 {
 
 .button-wrap {
     background: var(--darkTheme);
-    /* display: inline-flex;
-    text-align: center; */
+    
+    /* text-align: center; */
     /* justify-content: space-between; */
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
