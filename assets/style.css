@@ -207,5 +207,23 @@ h3 {
 .projectsPhoto:hover {
     height:268.75px;
     width:406.25px;
-    box-shadow: grey 5px 5px 5px;
+    /* box-shadow: grey 5px 5px 5px; */
+}
+
+.button-wrap {
+    background: var(--darkTheme);
+    /* display: inline-flex;
+    text-align: center; */
+    /* justify-content: space-between; */
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    width:100px;
+    color: var(--darkTheme);
+    font-weight: bold;
+    border-radius: 5px;
 }
