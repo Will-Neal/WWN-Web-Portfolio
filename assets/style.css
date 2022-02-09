@@ -93,7 +93,6 @@ a {
 }
 
 article {
-    /* margin-right: 200px; */
     color: var(--darkTheme);
     padding-bottom: 50px;
 }
@@ -103,27 +102,26 @@ article {
     text-align: center;
     margin-top: 150px;
     margin-bottom: 75px;
-    /* margin-right: 60px; */
     color: var(--darkTheme);
 }
 
 .backgroundBox {
     background: var(--darkTheme);
     margin-bottom: 30px;
+    text-align: center;
 }
 
 /* container and boxes for project display */
 #projectsContainer {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 10%;
     margin-top: 50px;
     border-bottom: 40px solid var(--darkTheme);
     background: var(--darkTheme);
+    justify-content: center;
 }
 
 .projectsBox {
-    /* flex: 1; */
     margin-top: 25px;
     flex-basis: 33%;
     background: var(--darkTheme);
@@ -170,6 +168,37 @@ h3 {
     color: var(--darkTheme);
 }
 
+
+.projectsPhoto:hover {
+    height:268.75px;
+    width:406.25px;
+    box-shadow: grey 5px 5px 5px;
+}
+
+.button-wrap {
+    background: var(--darkTheme);
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    width:100px;
+    margin-top: 5px;
+    /* margin-top: 30px; */
+    /* margin-right: 125px; */
+    color: var(--darkTheme);
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    filter: brightness(125%);
+    width: 125px;
+    height: 18px;
+}
+
 @media screen and (max-width: 768px) {
     h1 {
     position:static;
@@ -197,41 +226,8 @@ h3 {
         right: 0px;
     }
 
-}
+    button {
+        margin-top: 30px;
+    }
 
-/* #recentProject {
-    height:268.75px;
-    width:406.25px;
-} */
-
-.projectsPhoto:hover {
-    height:268.75px;
-    width:406.25px;
-    /* box-shadow: grey 5px 5px 5px; */
-}
-
-.button-wrap {
-    background: var(--darkTheme);
-    
-    text-align: center;
-    /* justify-content: space-between; */
-    /* align-items: center; */
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-button {
-    width:100px;
-    margin-right: 125px;
-    color: var(--darkTheme);
-    font-weight: bold;
-    border-radius: 5px;
-}
-
-button:hover {
-    cursor: pointer;
-    filter: brightness(125%);
-    width: 125px;
-    height: 18px;
 }
