@@ -1,16 +1,20 @@
 console.log("The script is linked")
 
 //grabbing the three buttons and storing as variables
+let crateButton = document.querySelector("#crateRepo")
 let smartShopperButton = document.querySelector("#smartShopperRepo")
 let weatherButton = document.querySelector("#weatherRepo")
-let calendarButton = document.querySelector("#calendarRepo")
 
 //grabbing the 3 images and storing as variables
+let crateImage = document.querySelector("#crateImage")
 let smartShopperImage = document.querySelector("#smartShopperImage")
 let weatherImage = document.querySelector("#weatherImage")
-let calendarImage = document.querySelector("#calendarImage")
 
 //adding event listeners and functions to the 3 repo buttons 
+
+crateButton.addEventListener("click", function(){
+    window.open("https://github.com/Will-Neal/crate")
+})
 
 smartShopperButton.addEventListener("click", function(){
     window.open("https://github.com/Will-Neal/SmartShopper-Application")
@@ -20,33 +24,3 @@ weatherButton.addEventListener("click", function(){
     window.open("https://github.com/Will-Neal/Realtime-Weather-App")
 })
 
-calendarButton.addEventListener("click", function(){
-    window.open("https://github.com/Will-Neal/Work-Day-Scheduler")
-})
-
-//Adding event listeners to the images to act on the buttons
-// smartShopperImage.addEventListener("mouseenter", function(){
-//     smartShopperButton.style.marginRight = "40px";
-// })
-
-// weatherImage.addEventListener("mouseenter", function(){
-//     weatherButton.style.marginRight = "40px";
-// })
-
-// calendarImage.addEventListener("mouseenter", function() {
-//     calendarButton.style.marginRight = "40px";
-// })
-
-//Adding Event Listeners to restore the button location on mouseexit
-
-// smartShopperImage.addEventListener("mouseleave", function(){
-//     smartShopperButton.style.marginRight = "125px";
-// })
-
-// weatherImage.addEventListener("mouseleave", function(){
-//     weatherButton.style.marginRight = "125px";
-// })
-
-// calendarImage.addEventListener("mouseleave", function() {
-//     calendarButton.style.marginRight = "125px";
-// })
